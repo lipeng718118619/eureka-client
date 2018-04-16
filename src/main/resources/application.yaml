@@ -6,7 +6,7 @@ server:
 eureka:
   client:
     service-url:
-       defaultZone: http://localhost:8000/eureka,http://localhost:9000/eureka
+       defaultZone: http://eureka-service1:8000/eureka,http://eureka-service2:9000/eureka
 
 logging:
   path: ./target/log
